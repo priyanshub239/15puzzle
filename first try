@@ -1,0 +1,41 @@
+import random
+
+
+class game:
+    def __init__(self, array):
+        self.array = array
+        print (array)
+
+    def objects(self):
+        self.objects = []
+        for i in self.array:
+            if len(str(i)) == 1:
+                i = '0'+str(i)
+                self.objects.append(i)
+            else:
+                i = str(i)
+                self.objects.append(i)
+        print (self.objects)
+
+    def grid(self):
+        self.grid = [[], [], [], []]
+        for eachrow in range(4):
+            print ("row number", eachrow)
+
+
+     for eachobject in range(4):
+            print ("this is a list of objects before popping:\n{0}".format(self.objects))
+            k = random.randint(0, len(self.objects)-1)
+            print (k)
+            self.grid[eachrow].append(self.objects.pop(k))
+            print (self.grid)
+
+
+def main():
+    array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+    test = game(array)
+    test.objects()
+    test.grid()
+
+if __name__ == "__main__":
+    main()
