@@ -1,0 +1,28 @@
+                                              ARTIFICIAL INTELLIGENCE
+
+                                               15 puzzle problem
+priyanshu bhardwaj
+deepak sahu
+sakshi jha
+pushkar chaturvedi
+Abstract :- Basically our project is whole about creating a game type wherre we have to solve 15 puzzle problem. In which we have certain constraints and a goal state to achieve.
+
+Introduction:- 15 puzzle problem is invented by sam loyd in 1878 . In this problem there are 15 tiles,which are numbered from 0 to 15. The objective of this problem was to transform the arrangement of tiles from initail arrangement to final arrangement. 
+
+
+Literature Review:- Basically our program works like we will give it a initial stage and goal stage . It will start finding solutions and came across a number of pathways and find a optimal pathways using heuristic functions we have declared in that.
+
+
+Proposed and Methodology :- We have used a number of functions nested with one another using the principal of polymorphism. We have created a function named as Is_samepuzzle which works on finding that puzzle is same means the numbers used in that. We have created a function named hassolution which deals with the conditions that whether it is solvable or not and if it is solvable it will leads to our mechanism of using A* informed search to find our goal state.
+
+We  have made some functions in a class move which defines all of the moves that could be done and we have stated condition for that also if the blank space leads in that mpve functions if it defines all the functions in that particular move It will move it or pass it to another move.
+
+
+
+
+
+Conclusion :- This project had been made with contribution of all our team members in various aspects.
+Like PUSHKAR CHATURVEDI made the algo of defining the hassolution function 
+SAKSHI JHA made main function and execution part
+DEEPAK SAHU defining moves and other functions.
+PRIYANSHU BHARDWAJ deals with debugging and bugs all testing and phase modulation.
